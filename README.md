@@ -2,6 +2,9 @@
 
 ![contract](https://image.shutterstock.com/z/stock-photo-two-hands-handshake-polygonal-low-poly-hud-illustration-smart-contract-agreement-blockchain-and-1161295627.jpg)
 
+
+![Bitcoin-PNG-Images.png](Bitcoin-PNG-Images.png)
+
 ## Background
 
 A potential new startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
