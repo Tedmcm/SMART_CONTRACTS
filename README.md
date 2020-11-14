@@ -112,12 +112,16 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ## First Deposit Contract 1.
 
+![First_DEP.png](/screenshots_contract/First_DEP.png)
+
+
+
 ![FIRST_DEPOSIT_PART1](/screenshots_contract/FIRST_DEPOSIT_PART1.png)
 
 
 ## Balance in account after deposits.
 
-![BALANCE_TEST_0](/screenshots_contract/BALANCE_TEST_0.png)
+![BALANCE_TEST_0.png](/screenshots_contract/BALANCE_TEST_0.png)
 
 
 
