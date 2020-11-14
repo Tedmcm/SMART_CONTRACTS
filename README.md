@@ -102,7 +102,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ## Deploy Contract 1
 
-![Confirm_transaction_PART1.png](/screenshots_contract/Confirm_transaction_PART.png)
+![Confirm_transaction_PART1.png](/screenshots_contract/Confirm_transaction_PART1.png)
 
 
 ## Initial Balances. 
