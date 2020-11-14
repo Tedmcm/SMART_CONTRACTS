@@ -102,12 +102,12 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ## Deploy Contract 1
 
-![Confirm_Transaction_PART1](/screenshots_contract/Confirm_Transaction_PART.png)
+![Confirm_transaction_PART1.png](/screenshots_contract/Confirm_transaction_PART.png)
 
 
 ## Initial Balances. 
 
-![Initial_Balance1](/screenshots_contract/Initial_Balance1.png)
+![Initial_Balance_1.png](/screenshots_contract/Initial_Balance_1.png)
 
 
 ## First Deposit Contract 1.
@@ -166,7 +166,7 @@ I started by creating the `deposit` function, by performing the following:
 
 ## Contract 2
 
-![TieredProfitSplit](/screenshots_contract/TieredProfitSplit.png.png)
+![TieredProfitSplit.png](/screenshots_contract/TieredProfitSplit.png)
 
 
 ## Deploy Contract 2
