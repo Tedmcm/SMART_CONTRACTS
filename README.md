@@ -117,7 +117,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 ## Balance in account after deposits.
 
-![START_BALANCE_CONTRACT2](/screenshots_contract/START_BALANCE_CONTRACT2.png)
+![BALANCE_TEST_0](/screenshots_contract/BALANCE_TEST_0.png)
 
 
 
