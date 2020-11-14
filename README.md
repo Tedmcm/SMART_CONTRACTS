@@ -119,7 +119,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 ![FIRST_DEPOSIT_PART1](/screenshots_contract/FIRST_DEPOSIT_PART1.png)
 
 
-## Balance in account after deposits.
+## Balance in contract after deposits.
 
 ![BALANCE_TEST_0.png](/screenshots_contract/BALANCE_TEST_0.png)
 
@@ -175,7 +175,7 @@ I started by creating the `deposit` function, by performing the following:
 
 ## Deploy Contract 2
 
-![Deploy_Contract2](/screenshots_contract/Deploy_Contract2.png)
+![CONFIRM_PART_2.PNG](/screenshots_contract/CONFIRM_PART_2.png)
 
 
 ## Initial Balances. 
@@ -183,12 +183,12 @@ I started by creating the `deposit` function, by performing the following:
 ![START_BALANCE_CONTRACT2](/screenshots_contract/START_BALANCE_CONTRACT2.png)
 
 
-## First Deposit Contract 2.
+## Deposit Contract 2.
 
 ![DEPOSIT_PART2](/screenshots_contract/DEPOSIT_PART2.png)
 
 
-## Balance in account after deposits.
+## Balance in account after deposit.
 
 ![ENDING_BALANCE_CONTRACT2](/screenshots_contract/ENDING_BALANCE_CONTRACT2.png)
 
