@@ -100,27 +100,27 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 ![AssociateProfitSplit.png](/screenshots_contract/AssociateProfitSplit.png)
 
 
-## Deploy Contract 1
+## Deploy Contract 
 
 ![Confirm_transaction_PART1.png](/screenshots_contract/Confirm_transaction_PART1.png)
 
 
-## Initial Balances. 
+## Initial Balances 
 
 ![Initial_Balance_1.png](/screenshots_contract/Initial_Balance_1.png)
 
 
-## First Deposit Contract 1.
+## First Deposit
 
 ![First_DEP.png](/screenshots_contract/First_DEP.png)
 
 
-## Balance in the employees accounts after the first deposit. 
+## Balance in the employees accounts after the first deposit 
 
 ![FIRST_DEPOSIT_PART1](/screenshots_contract/FIRST_DEPOSIT_PART1.png)
 
 
-## Contract balance after deposit.
+## Contract balance after deposit
 
 ![BALANCE_2.png](/screenshots_contract/BALANCE_2.png)
 
@@ -174,22 +174,22 @@ I started by creating the `deposit` function, by performing the following:
 ![TieredProfitSplit.png](/screenshots_contract/TieredProfitSplit.png)
 
 
-## Deploy Contract 2
+## Deploy Contract
 
 ![CONFIRM_PART_2.PNG](/screenshots_contract/CONFIRM_PART_2.png)
 
 
-## Initial Balances. 
+## Initial Balances 
 
 ![START_BALANCE_CONTRACT2](/screenshots_contract/START_BALANCE_CONTRACT2.png)
 
 
-## Deposit Contract 2.
+## Deposit Contract
 
 ![DEPOSIT_PART2](/screenshots_contract/DEPOSIT_PART2.png)
 
 
-## Balance in employeers accounts after deposit.
+## Balance in employeers accounts after deposit
 
 ![ENDING_BALANCE_CONTRACT2](/screenshots_contract/ENDING_BALANCE_CONTRACT2.png)
 
