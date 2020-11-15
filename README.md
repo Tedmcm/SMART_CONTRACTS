@@ -3,7 +3,7 @@
 ![contract](https://image.shutterstock.com/z/stock-photo-two-hands-handshake-polygonal-low-poly-hud-illustration-smart-contract-agreement-blockchain-and-1161295627.jpg)
 
 
-![Bitcoin.png](Bitcoin-PNG-Images.png)
+![Bitcoin_Transparent.png](/screenshots_contract/Bitcoin_Transparent.png)
 
 ## Background
 
