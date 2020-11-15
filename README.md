@@ -1,6 +1,6 @@
 
 
-![Bitcoin_Transparent.png](/screenshots_contract/Bitcoin_Transparent.png)
+   ![Bitcoin_Transparent.png](/screenshots_contract/Bitcoin_Transparent.png)
 
 ## Background
 
@@ -263,20 +263,7 @@ After switching MetaMask to Kovan, deploy the contracts as before and copy/keep 
 
 ![Remix Deploy](Images/remix-deploy.png)
 
-## Resources
 
-Building the next financial revolution isn't easy, but we need your help, don't be intimidated by the semicolons!
-
-There are lots of great resources to learn Solidity. Remember, you are helping push the very edge of this space forward,
-so don't feel discouraged if you get stuck! In fact, you should be proud that you are taking on such a challenge!
-
-For some succinct and straightforward code snips, check out [Solidity By Example](https://github.com/raineorshine/solidity-by-example)
-
-For a more extensive list of awesome Solidity resources, checkout [Awesome Solidity](https://github.com/bkrem/awesome-solidity)
-
-Another tutorial is available at [EthereumDev.io](https://ethereumdev.io/)
-
-If you enjoy building games, here's an excellent tutorial called [CryptoZombies](https://cryptozombies.io/)
 
 ## Submission
 
