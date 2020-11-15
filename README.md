@@ -95,7 +95,7 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 
 
 
-## Contract 1
+## AssociateProfitSplitter Contract 
 
 ![AssociateProfitSplit.png](/screenshots_contract/AssociateProfitSplit.png)
 
@@ -115,11 +115,12 @@ Test the `deposit` function by sending various values. Keep an eye on the `emplo
 ![First_DEP.png](/screenshots_contract/First_DEP.png)
 
 
+## Balance in the employees accounts after the first deposit. 
 
 ![FIRST_DEPOSIT_PART1](/screenshots_contract/FIRST_DEPOSIT_PART1.png)
 
 
-## Balance in contract after deposits.
+## Contract balance after deposit.
 
 ![BALANCE_2.png](/screenshots_contract/BALANCE_2.png)
 
@@ -168,7 +169,7 @@ I started by creating the `deposit` function, by performing the following:
 
 
 
-## Contract 2
+## TieredProfitSplitter Contract 
 
 ![TieredProfitSplit.png](/screenshots_contract/TieredProfitSplit.png)
 
@@ -188,7 +189,7 @@ I started by creating the `deposit` function, by performing the following:
 ![DEPOSIT_PART2](/screenshots_contract/DEPOSIT_PART2.png)
 
 
-## Balance in account after deposit.
+## Balance in employeers accounts after deposit.
 
 ![ENDING_BALANCE_CONTRACT2](/screenshots_contract/ENDING_BALANCE_CONTRACT2.png)
 
