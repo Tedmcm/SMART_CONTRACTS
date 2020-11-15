@@ -189,7 +189,7 @@ I started by creating the `deposit` function, by performing the following:
 ![DEPOSIT_PART2](/screenshots_contract/DEPOSIT_PART2.png)
 
 
-## Balance in employeers accounts after deposit
+## Balance in the employees accounts after deposit
 
 ![ENDING_BALANCE_CONTRACT2](/screenshots_contract/ENDING_BALANCE_CONTRACT2.png)
 
