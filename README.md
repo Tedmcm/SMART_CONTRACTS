@@ -6,7 +6,7 @@
 
 A potential new startup has created its own Ethereum-compatible blockchain to help connect financial institutions, and the team wants to build smart contracts to automate some company finances to make everyone's lives easier, increase transparency, and to make accounting and auditing practically automatic!
 
-I made these contracts do several things:
+I made these contracts to do several things:
 
 * Pay the Associate-level employees quickly and easily.
 
@@ -29,7 +29,7 @@ I made these contracts do several things:
 
 * **Second Contract** is a `TieredProfitSplitter` that will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and CIO gets 15%.
 
-* **Third Contract** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
+* **Third Contract** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage a 1000 shares with an annual distribution of 250 over 4 years for a single employee.
 
 
 
@@ -161,7 +161,7 @@ I started by creating the `deposit` function, by performing the following:
 
 * It sends the remainder to the employee with the highest percentage by subtracting `total` from `msg.value`, and sending that to an employee.
 
-* I Deployed and tested the contract functionality by depositing various Ether values (greater than 100 wei).
+* I Deployed and tested the contract's functionality by depositing 10 Ether as you see below, however, you can try this with various amounts (greater than 100 wei).
 
   * The `balance` function can be used as a test to see if the logic I have in the `deposit` function is valid. Since all of the Ether should be transferred to employees, this function should always return `0`, since the contract should never store Ether itself.
 
@@ -184,7 +184,7 @@ I started by creating the `deposit` function, by performing the following:
 ![START_BALANCE_CONTRACT2](/screenshots_contract/START_BALANCE_CONTRACT2.png)
 
 
-## Deposit Contract
+## Second Deposit 
 
 ![DEPOSIT_PART2](/screenshots_contract/DEPOSIT_PART2.png)
 
@@ -198,7 +198,7 @@ I started by creating the `deposit` function, by performing the following:
 
 ### Level Three: The `DeferredEquityPlan` Contract
 
-In this contract, we will be managing an employee's "deferred equity incentive plan" in which 1000 shares will be distributed over 4 years to the employee. We won't need to work with Ether in this contract, but we will be storing and setting amounts that represent the number of distributed shares the employee owns and enforcing the vetting periods automatically.
+In this contract, I will be managing an employee's "deferred equity incentive plan" in which 1000 shares will be distributed over 4 years to the employee. We won't need to work with Ether in this contract, but we will be storing and setting amounts that represent the number of distributed shares the employee owns and enforcing the vetting periods automatically.
 
 * **A two-minute primer on deferred equity incentive plans:** In this set-up, employees receive shares for joining and staying with the firm. They may receive, for example, an award of 1,000 shares when joining, but with a 4 year vesting period for these shares. This means that these shares would stay with the company, with only 250 shares (1,000/4) actually distributed to and owned by the employee each year. If the employee leaves within the first 4 years, he or she would forfeit ownership of any remaining (“unvested”) shares.
 
@@ -206,7 +206,7 @@ In this contract, we will be managing an employee's "deferred equity incentive p
 
   * Specific vesting periods, the dollar/crypto value of shares awarded, and the percentage equity stake (the percentage ownership of the company) all tend to vary according to the company, the specialized skills, or seniority of the employee, and the negotiating positions of the employee/company. If you receive an offer from a company offering equity (which is great!), just make sure you can clarify the current dollar value of those shares being offered (based on, perhaps, valuation implied by the most recent outside funding round). In other words, don’t be content with just receiving “X” number of shares without having a credible sense of what amount of dollars that “X” number represents. Be sure to understand your vesting schedule as well, particularly if you think you may not stick around for an extended period of time.
 
-Using the starter code, perform the following:
+I constructed the contract as follows:
 
 * Human Resources will be set in the constructor as the `msg.sender`, since HR will be deploying the contract.
 
@@ -240,7 +240,7 @@ Using the starter code, perform the following:
 
   * The final `if` statement provided checks that in case the employee does not cash out until 5+ years after the contract start, the contract does not reward more than the `total_shares` agreed upon in the contract.
 
-* Deploy and test your contract locally.
+* Deploy and test the contract locally.
 
   * For this contract, test the timelock functionality by adding a new variable called `uint fakenow = now;` as the first line of the contract, then replace every other instance of `now` with `fakenow`. Utilize the following `fastforward` function to manipulate `fakenow` during testing.
 
@@ -254,21 +254,18 @@ Using the starter code, perform the following:
 
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
 
-* Congratulate yourself for building such complex smart contracts in your first week of Solidity! You are learning specialized skills that are highly desired in the blockchain industry!
+
 
 ### Deploy the contracts to a live Testnet
 
-Once you feel comfortable with your contracts, point MetaMask to the Kovan or Ropsten network. Ensure you have test Ether on this network!
+Once I felt comfortable the contracts, I pointed MetaMask to the Kovan or Ropsten network. 
 
-After switching MetaMask to Kovan, deploy the contracts as before and copy/keep a note of their deployed addresses. The transactions will also be in your MetaMask history, and on the blockchain permanently to explore later.
+After switching MetaMask to Kovan, I deployed the contracts as before and copy/kept a note of their deployed addresses. The transactions will also be in your MetaMask history, and on the blockchain permanently to explore later.
 
 ![Remix Deploy](Images/remix-deploy.png)
 
 
 
-## Submission
+Testnet Address:
 
-Create a `README.md` that explains what testnet the contract is on, the motivation for the contract.
-
-Upload this to a Github repository that explains how the contract works, and provide the testnet address for others to be able to send to.
 
