@@ -266,6 +266,13 @@ After switching MetaMask to Kovan, I deployed the contracts as before and copy/k
 
 
 
+![DeferredEquityPlan](/screenshots_contract/DeferredEquityPlanContract.png)
+
+
+
+![DeferredEquityPlan](/screenshots_contract/DeferredEquityPlan.png)
+
+
 Testnet Address:
 
 
