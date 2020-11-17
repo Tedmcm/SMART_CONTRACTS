@@ -265,8 +265,7 @@ After switching MetaMask to Kovan, I deployed the contracts as before and copy/k
 ![Remix Deploy](Images/remix-deploy.png)
 
 
-
-![DeferredEquityPlan](/screenshots_contract/DeferredEquityPlanContract.png)
+![DeferredEquityPlan](/screenshots_contract/DEPC.png)
 
 
 
