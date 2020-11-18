@@ -265,13 +265,18 @@ After switching MetaMask to Kovan, I deployed the contracts as before and copy/k
 ![Remix Deploy](Images/remix-deploy.png)
 
 
+DeferredEquityPlan Contract
+
 ![DeferredEquityPlan](/screenshots_contract/DEPC.png)
 
 
+First 250 Shares Distributed
 
 ![DeferredEquityPlan](/screenshots_contract/DeferredEquityPlan.png)
 
 
 Testnet Address:
-
+Contract 1-
+Contract 2-
+Contract 3- 
 
